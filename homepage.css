@@ -1,0 +1,68 @@
+.containerUpdate {
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+    margin-left: -20px;
+    width: 30%;
+	height: 65%;
+	position: absolute;
+	top: 250px;
+	/*box-shadow: 0 0px 0px rgba(0,0,0,1000);*/
+	outline: 5px solid #000;
+}
+
+.containerHompageSub{
+    background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+    margin-left: 600px;
+    width: 49.7%;
+	height: 65%;
+	position: absolute;
+	top: 250px;
+	/*box-shadow: 0 0px 0px rgba(0,0,0,1000);*/
+	outline: 5px solid #000;
+}
+
+.containerPreAmble {
+    background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    text-align: center;
+    margin-top: -230px;
+    width: 95%;
+	height: 40%;
+	position: absolute;
+	top: 250px;
+	/*box-shadow: 0 0px 0px rgba(0,0,0,1000);*/
+	outline: 5px solid #000;
+}
+.containerPreAmble p {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.containerHomepageDetails {
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 50px;
+	width: 95%;
+	height: 48%;
+	position: absolute;
+	top: 250px;
+	/*box-shadow: 0 0px 0px rgba(0,0,0,1000);*/
+	outline: 5px solid #000;
+}
+.containerHomepageDetails h2{
+    font-size: 30px;
+    color: grey;
+    padding: 20px;
+}

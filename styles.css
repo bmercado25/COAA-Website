@@ -1,0 +1,135 @@
+body { 
+	font-family: Arial, sans-serif; 
+	background: #fff; 
+	margin: 0; 
+	padding: 0; 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center; 
+	height: 100vh;
+}
+/* Container for the top section */
+.containerTop {
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	height: 10%;
+	position: absolute;
+	top: 40px;
+	padding-left: 40px;
+	/*box-shadow: 0 0px 0px rgba(0,0,0,1000);*/
+	outline: 5px solid #000;
+}
+.containerSub {
+    display: flex;
+	background: #fff;
+    width: 20%;
+    height: 50%;
+	outline: 5px solid #000;
+    justify-content: center;
+	align-items: center; 
+    /*margin-top: 25px;*/
+}
+.containerQuote{
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+    background: #fff;
+    width: 20%;
+    height: 50%;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -30px;
+}
+.containerSubQuote {
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    height: 5%;
+    align-items: center; 
+}
+.searchBar{
+	display: flex;
+	background: #fff;
+	width: 50%;
+	height: 50%;
+	outline: 5px solid #000;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.searchBar input[type="text"] {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	padding: 0 10px;
+	font-size: 1rem;
+	background: transparent;
+}
+/* container be for dashboard */
+.containerDashboard {
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	gap: 24px; /* Adjust gap for closeness */
+	width: 80%;
+	height: 6%;
+	position: absolute;
+	top: 170px;
+	padding-left: 40px;
+	/*box-shadow: 0 0px 0px rgba(0,0,0,1000);*/
+	outline: 5px solid #000;
+}
+
+.about-link {
+    text-align: right;
+    width: 100%;
+    display: block;
+    padding-right: 20px;
+}
+.containerDashboard a {
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+
+.containerDashboard a:last-child {
+	margin-left: auto;
+}
+.leftItems {
+	margin: 0;
+	padding: 0 8px;
+	font-size: 1.2rem;
+}
+.mainContentContainer{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 80%;
+	height: 70%;
+	background: #fff;
+	margin-top: 20px;
+}
+
+.containerUpdate {
+	display: flex;
+	flex-direction: column;
+	gap: 0px; /* Adjust for even spacing */
+}
+
+
+
+h1 { color: #000; }
+h5 {font-size: 15px;}
+a { color: #000; text-decoration: none; }
+a:hover { text-decoration: underline; }
